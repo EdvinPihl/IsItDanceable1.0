@@ -1,0 +1,207 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #B3B3B3;
+    color: #000000;
+
+}
+
+.header-class {
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+input[type=text] {
+    width: 300px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    padding: 5px;
+    /* Adjust padding for internal spacing */
+}
+
+
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=text],
+button {
+    margin: 10px;
+    width: 300px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    padding: 5px;
+    /* Adjust padding for internal spacing */
+    font-size: 16px;
+    /* Adjust the font size as needed */
+
+}
+
+.submit button {
+    color: #1DB954;
+}
+
+button {
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white
+}
+
+.button-container button {
+    background-color: #7DA2A9;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #1DB954;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .button-container button {
+        width: 100%;
+        padding: 15px;
+    }
+
+}
+
+text {
+    color: #FFFFFF;
+
+}
+
+.album-cover {
+    padding-top: 50px;
+    width: 60vw;
+    /* 30% of the viewport width */
+    max-width: 450px;
+    /* maximum size */
+    height: auto;
+
+
+}
+
+.back-button {
+    background-color: #4CAF50;
+    /* Change this to your desired color */
+    color: #FFFFFF;
+    /* This is the text color */
+    /* Add other styling properties as needed */
+}
+
+.back-button {
+    background-color: #1DB954;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;
+
+}
+
+.back-button:hover {
+    background-color: #1ED760;
+    /* Slightly darker shade when hovered */
+}
+
+.header-class {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 10vw;
+    color: #000000;
+}
+
+.track-info p {
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    /* Sets the font size */
+    color: #000000;
+    /* Sets the text color, change as needed */
+
+
+    /* Adds some space above and below each paragraph */
+}
+
+.track-info p:first-child {
+    font-size: 20px;
+
+    /* Makes the first paragraph (track title) bold */
+}
+
+/* Additional styles for other elements on your results page */
+/* ... */
+
+.track-data p {
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+.song-link {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;
+
+}
+
+/* Optional: Style for hover effect */
+.song-link:hover {
+    background-color: #1ED760;
+    /* Lighter green on hover */
+}
+
+.submit-button {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;
+}
+
+.submit-button:hover {
+    background-color: #1ED760;
+    /* Lighter green on hover */
+}
